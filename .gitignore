@@ -1,0 +1,26 @@
+# Ignore huge datasets
+data/generated_binary.bin
+data/criteo_10gb.txt
+data/criteo_one_mil.txt
+
+# Ignore build and bitstream folders
+build_sw/
+build_hw/
+bitstreams/
+
+# Ignore temporary and build files
+*.log
+*.tmp
+*.o
+*.so
+.vscode/
+.idea/
+build/
+*.xpr
+*.xpf
+*.jou
+*.log
+*.wdb
+*.npy
+*.npz
+__pycache__/
